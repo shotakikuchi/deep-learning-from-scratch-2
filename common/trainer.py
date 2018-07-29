@@ -6,6 +6,7 @@ import numpy
 import time
 import matplotlib.pyplot as plt
 import numpy as np
+from common.functions import sigmoid
 
 
 class Trainer:
@@ -165,3 +166,6 @@ def remove_duplicate(params, grads):
         if not find_flg: break
 
     return params, grads
+
+
+
